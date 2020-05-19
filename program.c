@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<pthread.h>
 #include<string.h>
-
+char msg[25] ="Hello";
 void * function(void *ptr){
   printf("%s",ptr);
 
